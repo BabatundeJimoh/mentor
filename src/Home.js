@@ -185,16 +185,15 @@ function Home() {
                 </div>
               </Card.Text>
 
-              <div className="btn">
-                {" "}
+              <div style={{ width: "100%" }}>
                 <Button
-                  variant=""
                   style={{
-                    width: "280px",
-                    height: "50px",
+                    width: "100%",
+                    maxWidth: "300px",
+                    height: "8vh",
                     borderRadius: "26px",
-                    marginTop: "20px",
-                    backgroundColor: "  hsl(252, 100%, 40%)",
+                    marginTop: "4vh",
+                    backgroundColor: "hsl(252, 100%, 40%)",
                     color: "white",
                   }}
                 >
