@@ -97,10 +97,12 @@ function Home() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ color: "hsl(0, 100%, 67%)" }}>
+                    <p
+                      style={{ color: "hsl(0, 100%, 67%)", paddingTop: "3px" }}
+                    >
                       <i
                         class="bi bi-lightning-charge"
-                        style={{ padding: "7px" }}
+                        style={{ padding: "9px" }}
                       ></i>
                       <b>Reaction</b>
                     </p>
@@ -125,7 +127,9 @@ function Home() {
                     }}
                   >
                     {" "}
-                    <p style={{ color: "hsl(39, 100%, 56%)" }}>
+                    <p
+                      style={{ color: "hsl(39, 100%, 56%)", paddingTop: "3px" }}
+                    >
                       <i class="bi bi-file-x" style={{ padding: "7px" }}></i>
                       <b>Memory</b>
                     </p>
@@ -149,7 +153,12 @@ function Home() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ color: "hsl(166, 100%, 37%)" }}>
+                    <p
+                      style={{
+                        color: "hsl(166, 100%, 37%)",
+                        paddingTop: "3px",
+                      }}
+                    >
                       <i class="bi bi-chat-dots" style={{ padding: "7px" }}></i>
                       <b>Verbal</b>
                     </p>
@@ -174,7 +183,7 @@ function Home() {
                     }}
                   >
                     {" "}
-                    <p style={{ color: "#7687cc" }}>
+                    <p style={{ color: "#7687cc", paddingTop: "3px" }}>
                       <i class="bi bi-eye" style={{ padding: "7px" }}></i>
                       <b>Visual</b>
                     </p>
